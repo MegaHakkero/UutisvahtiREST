@@ -8,7 +8,9 @@
     "express": "^4.13.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "startjson": "chmod a+x launchserver.sh && ./launchserver.sh",
+    "startfront": "/opt/google/chrome/chrome index.html"
+    "starteverything": "chmod a+x launchserver.sh && ./launchserver.sh && /opt/google/chrome/chrome index.html"
   },
   "author": "simbrine",
   "license": "GPL"
