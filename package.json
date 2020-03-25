@@ -1,0 +1,17 @@
+{
+  "name": "uutisvahti_rest",
+  "version": "1.1.0",
+  "description": "",
+  "main": "jsonmanager.js",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "startjson": "chmod a+x launchserver.sh && ./launchserver.sh",
+    "startfront": "/opt/google/chrome/chrome index.html",
+    "starteverything": "chmod a+x launchserver.sh && ./launchserver.sh && /opt/google/chrome/chrome index.html"
+  },
+  "author": "rune-rune",
+  "license": "GPL"
+}
