@@ -12,6 +12,6 @@
     "startfront": "/opt/google/chrome/chrome index.html",
     "starteverything": "chmod a+x launchserver.sh && ./launchserver.sh && /opt/google/chrome/chrome index.html"
   },
-  "author": "simbrine",
+  "author": "rune-rune",
   "license": "GPL"
 }
